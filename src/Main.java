@@ -52,10 +52,39 @@ public class Main {
                     System.out.println("Потребуется 1 день");
                 } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
                     System.out.println("Потребуется 2 дня");
-                }else if (deliveryDistance>60&&deliveryDistance<=100) {
+                } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
                     System.out.println("Потребуется 3 дня");
-                }else {
+                } else {
                     System.out.println("Доставки нет");
+                }
+
+                System.out.println("Задание 5");
+
+                int monthNumber =3;
+                if (monthNumber < 13 && monthNumber > 0) {
+                    switch (monthNumber) {
+                        case 12:
+                        case 1:
+                        case 2:
+                            System.out.println("Зима");
+                            break;
+                        case 3:
+                        case 4:
+                        case 5:
+                            System.out.println("Весна");
+                            break;
+                        case 6:
+                        case 7:
+                        case 8:
+                            System.out.println("Лето");
+                            break;
+                        case 9:
+                        case 10:
+                        case 11:
+                            System.out.println("Осень");
+                            break;
+
+                    }
                 }
 
             }

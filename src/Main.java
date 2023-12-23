@@ -60,7 +60,7 @@ public class Main {
 
                 System.out.println("Задание 5");
 
-                int monthNumber =3;
+                int monthNumber = 3;
                 if (monthNumber < 13 && monthNumber > 0) {
                     switch (monthNumber) {
                         case 12:
